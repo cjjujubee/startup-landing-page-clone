@@ -20,7 +20,9 @@ div {
 	padding-top: 1em;
 	padding-bottom: 1em;
 	padding-left: 0em;
-	margin: 0;
+	margin:0 auto;
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
 
 }
 
@@ -37,7 +39,7 @@ div {
 
 .black-link {
 	color: black;
-	font-weight: bold;
+	font-weight: 500;
 }
 
 a:hover {
@@ -47,5 +49,4 @@ a:hover {
 a {
 	color: gray;
 	text-decoration: none;
-	vertical-align: middle;
 }
