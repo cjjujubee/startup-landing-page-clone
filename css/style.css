@@ -6,7 +6,9 @@ html {
 *, *:before, *:after {
 	box-sizing: inherit;
 }
-
+.content {
+	text-align: center;
+}
 .topnavbar {
 	position: fixed;
 	width: 100%;
@@ -75,9 +77,7 @@ a {
 	width:100%;
 	margin-top:13em;
 	color: white;
-	text-align: center;
 	font-weight: lighter;
-
 }
 
 .background-section .content .button {
@@ -102,6 +102,26 @@ a {
 	margin-bottom:0;
 }
 
+/*unbolds Intro text*/
 h1 {
 	font-size: 3em;
+	font-weight: lighter;
+}
+
+/*adds more white space between Everyone... and Background*/
+.KarmaBody {
+	padding-bottom:5rem;
+	margin-top:7.875rem;
+}
+
+.KarmaBody .devices {
+	width: 33%;
+	display: inline-block;
+	box-sizing: border-box;
+	height: 4em;
+}
+
+.KarmaBody .devices img {
+	width: 8em;
+	height: 8em;
 }
