@@ -6,9 +6,11 @@ html {
 *, *:before, *:after {
 	box-sizing: inherit;
 }
+
 .content {
 	text-align: center;
 }
+
 .topnavbar {
 	position: fixed;
 	width: 100%;
@@ -17,6 +19,11 @@ html {
 	border-bottom: 1px;
 	border-bottom-style: solid;
 	border-bottom-color: rgb(221,221,221);
+}
+
+.topnavbar-transparent {
+	background-color:transparent;
+	border:none;
 }
 
 .topnavbar .content {
@@ -58,6 +65,18 @@ a:hover {
 a {
 	color: #838994;
 	text-decoration: none;
+}
+
+.topnavbar-transparent .navbar a {
+	color: white;
+}
+
+.transition { 
+	-webkit-transition: all .5s ease; 
+	-moz-transition: all .5s ease; 
+	-o-transition: all .5s ease; 
+	-ms-transition: all .5s ease; 
+	transition: all .5s ease; 
 }
 
 /*karma background section*/
@@ -133,4 +152,18 @@ h1 {
 .KarmaBody .devices img {
 	width: 8em;
 	height: 8em;
+}
+
+.KarmaFooter .content {
+	margin-right: 3em;
+	margin-left: 3em;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.KarmaFooter .content h5 {
+	font-weight: normal;
+	font-size: 1em;
+	border-top: 1px solid #DCDCDC;
+	padding-top: 1.5em;
 }
