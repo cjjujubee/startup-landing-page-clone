@@ -170,11 +170,14 @@ h1 {
 
 .KarmaFooter .icons {
 	list-style: none;
-	/*display: inline;*/
+	margin: 0 auto;
+	padding: 0;
 }
 
 .KarmaFooter .icons li {
 	display: inline;
+	text-align: center;
+	padding
 }
 
 .KarmaFooter .copyright {
