@@ -170,6 +170,11 @@ h1 {
 
 .KarmaFooter .icons {
 	list-style: none;
+	/*display: inline;*/
+}
+
+.KarmaFooter .icons li {
+	display: inline;
 }
 
 .KarmaFooter .copyright {
