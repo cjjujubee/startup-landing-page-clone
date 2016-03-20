@@ -166,18 +166,31 @@ h1 {
 	font-size: 1em;
 	border-top: 1px solid #DCDCDC;
 	padding-top: 1.5em;
+	margin-bottom: 0;
 }
 
 .KarmaFooter .icons {
 	list-style: none;
 	margin: 0 auto;
 	padding: 0;
+	display: inline;
 }
 
 .KarmaFooter .icons li {
 	display: inline;
-	text-align: center;
-	padding
+}
+
+.KarmaFooter .icons i {
+	border-radius: 3rem;
+	width: 2.5rem;
+	height: 2.5rem;
+	margin: 1.25rem 5px;
+	border: 1px solid #eaebec;
+	padding: 0.675rem 0;
+}
+
+.KarmaFooter .icons i:hover {
+	cursor: pointer;
 }
 
 .KarmaFooter .copyright {
@@ -188,4 +201,5 @@ h1 {
 	font-weight: lighter;
 	font-size: .9em;
 	color: #838994;
+	margin-top: 0;
 }
